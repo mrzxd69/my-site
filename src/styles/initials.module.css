@@ -1,0 +1,11 @@
+.initials {
+    color: white;
+    font-size: 40px;
+}
+
+
+@media screen and (max-width: 600px) {
+    .initials {
+        text-align: center;
+    }
+}

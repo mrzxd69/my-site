@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+
+* {
+    font-family: 'Montserrat', sans-serif;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #0F172A;
+}
+
+/* Вот тут начинается жестб */
+.about_me {
+    display: flex;
+    margin: 30px 10px 50px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 6%;
+}
+
+.information {
+    margin-top: 25px;
+}
+
+.description {
+    margin-top: 10px;
+}
+
+.contacts {
+    margin-top: -10px;
+}
+
+
+.cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin: 0 70px 40px;
+}
+
+.viewed {
+    display: flex;
+    justify-content: center;
+    height: 75px;
+}
+
+@media screen and (max-width: 600px) {
+    .about_me {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .contacts {
+        display: flex;
+        justify-content: center;
+    }
+
+    .cards {
+        margin: 0 20px 30px;
+    }
+}

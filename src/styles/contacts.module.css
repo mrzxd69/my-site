@@ -1,0 +1,16 @@
+.contacts {
+    display: flex;
+    gap: 15px;
+}
+
+.telegram {
+    width: 25px;
+}
+
+.github {
+    width: 29px;
+}
+
+.discord {
+    width: 30px;
+}

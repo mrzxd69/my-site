@@ -1,0 +1,8 @@
+.avatar {
+    border-radius: 30px;
+    border: 2px solid rgb(185, 187, 255);
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    pointer-events: none;
+}

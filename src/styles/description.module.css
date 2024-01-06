@@ -1,0 +1,37 @@
+.description {
+    color: #7A6A9D;
+}
+
+.kittens {
+    z-index: 100;
+    position: relative;
+    color: white;
+}
+
+
+.arrow {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    pointer-events: none;
+    z-index: -90;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    transform: translate(14px, 3px);
+}
+
+
+@media screen and (max-width: 600px) {
+    .arrow {
+        display: none;
+    }
+
+    .description {
+        text-align: center;
+    }
+
+    .kittens {
+        color: #7A6A9D;
+    }
+}

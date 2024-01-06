@@ -1,0 +1,63 @@
+.card {
+    width: 313px;
+    background: rgb(23,37,69);
+    background: linear-gradient(90deg, rgba(23,37,69,1) 40%, rgba(22,32,51,1) 100%);
+    height: 185px;
+    border-radius: 15px;
+    padding: 15px;
+}
+
+.title {
+    font-size: 16px;
+    color: #4FC3C5;
+    text-decoration: none;
+}
+
+.container_title {
+    margin-bottom: 15px;
+}
+
+.description {
+    color: #7689AC;
+    font-size: 14px;
+    width: 150px;
+    margin-bottom: 20px;
+}
+
+.tech_container {
+    display: flex;
+    gap: 10px;
+}
+
+.tech {
+    background-color: #173154;
+    color: #7689AC;
+    font-size: 14px;
+    padding: 4px 12px;
+    border-radius: 15px;
+}
+
+@media screen and (max-width: 795px) {
+    .card {
+        width: 90%;
+        height: 165px;
+    }
+
+    .title {
+        font-size: 16px;
+    }
+
+    .description {
+        width: 230px;
+        font-size: 14.5px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .tech {
+        padding: 4px 10px;
+    }
+    .tech_container {
+        gap: 5px;
+    }
+}
